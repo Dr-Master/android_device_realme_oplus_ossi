@@ -27,3 +27,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="ossi-user 12 SKQ1.221119.001 1680876905942 release-keys"
 
 BUILD_FINGERPRINT := oplus/ossi/ossi:12/SKQ1.221119.001/1680876905942:user/release-keys
+
+$(call inherit-product, device/oplus/ossi/device.mk)
